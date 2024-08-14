@@ -1,0 +1,7 @@
+/* Example CSS to ensure footer is properly positioned */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

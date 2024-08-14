@@ -1,0 +1,70 @@
+.rider-safety-tips {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.rider-safety-tips h2 {
+  width: 100%;
+  text-align: center;
+  background-color: #ffc107;
+  color: #333;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.rider-safety-tips p {
+  text-align: center;
+  margin: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.rider-safety-tips div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rider-safety-tips ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  flex: 1;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.rider-safety-tips li {
+  margin: 15px 0;
+}
+
+.rider-safety-tips li::before {
+  content: '✔';
+  color: #ffc107;
+  margin-right: 10px;
+}
+
+.rider-safety-tips img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .rider-safety-tips {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rider-safety-tips img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}

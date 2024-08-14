@@ -1,0 +1,61 @@
+.driver-background-checks {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between the image and text as needed */
+  background-color: #f0f4f8; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.driver-background-checks img {
+  max-width: 200px; /* Adjust the width of the image as needed */
+  height: auto;
+  border-radius: 10px; /* Rounded corners for the image */
+  border: 2px solid #d1e7fd; /* Border around the image */
+}
+
+.driver-background-checks div:last-child {
+  flex: 1;
+}
+
+.driver-background-checks ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333; /* Dark text color for better readability */
+}
+
+.driver-background-checks li {
+  margin-bottom: 10px;
+  font-weight: 500; /* Slightly bold text */
+}
+
+h2 {
+  color: #007BFF; /* Attractive blue color for the heading */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555; /* Slightly muted color for the paragraph */
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .driver-background-checks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .driver-background-checks img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.h2{
+  margin-top: 40px;
+  color: rgb(44, 209, 151);
+}

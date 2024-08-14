@@ -1,0 +1,72 @@
+/* DriverPage.css */
+
+.driver-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .driver-page-header {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px; /* Increase space below the header */
+    font-weight: bold;
+  }
+  
+  .driver-page-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%; /* Full width of the container */
+    max-width: 800px; /* Increase max width for more coverage */
+    text-align: center;
+  }
+  
+  .success-message {
+    font-size: 16px;
+    color: #28a745;
+    margin-bottom: 20px;
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .driver-page-toggle-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .driver-page-toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .driver-options {
+    margin-top: 30px;
+  }
+  
+  .driver-options p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .driver-options p:hover {
+    color: #007bff;
+  }
+  

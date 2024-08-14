@@ -1,0 +1,54 @@
+/* RideIssues.css */
+.ride-issues {
+    margin-top: 40px;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ride-issues h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .ride-issues div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ride-issues img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .ride-issues ul {
+    background-color: #f9f9f9;
+    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    flex: 1;
+  }
+  
+  .ride-issues li {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .ride-issues li::before {
+    content: '✔';
+    color: #4caf50;
+    margin-right: 10px;
+  }
+  

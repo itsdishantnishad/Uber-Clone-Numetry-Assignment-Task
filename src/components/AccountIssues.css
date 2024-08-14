@@ -1,0 +1,61 @@
+/* AccountIssues.css */
+.account-issues {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-issues h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .account-issues .img-container {
+    flex: 1;
+  }
+  
+  .account-issues .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .account-issues .text-container {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .account-issues ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .account-issues li {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .account-issues li::before {
+    content: '✔';
+    color: #4caf50;
+    margin-right: 10px;
+  }
+
+  h2{
+    text-align: center;
+    color: crimson;
+  }

@@ -1,0 +1,25 @@
+/* Help.css */
+.help-page {
+    min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+    width: 100vw;
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .help-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .help-section, .Account-section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+  }
+  

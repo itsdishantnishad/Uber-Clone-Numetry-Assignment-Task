@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.map-box {
+  flex: 2;
+}
+
+.search-box {
+  flex: 1;
+  height: 500px;
+    width: 45%;
+   
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 4px;
+    background-color: white;
+    bottom: 80px;
+  
+}
+
+.search-box h1{
+  
+  margin-left:45px ;
+
+
+ 
+}
+.pickup-input{
+  height: 40px;
+  width: 80%;
+  margin-top: 48px;
+  margin-left: 24px;
+  align-items: center;
+  border: 3px solid rgb(248,244,244);
+  border-radius: 7px;
+  background-color: rgb(251,249,249);
+  font-size: 15px;
+}
+.dropoff-input{
+  height: 40px;
+  width: 80%;
+  margin-top: 37px;
+  margin-left: 42px;
+  align-items: center;
+  border: 3px solid rgb(248,244,244);
+  border-radius: 7px;
+  background-color: rgb(251,249,249);
+  font-size: 15px;
+}
+.search-button {
+ height: 50px;
+ width: 80%;
+ margin-top: 30px;
+ margin-left: 42px;
+ background-color:black;
+ border: 3px solid black;
+ color: white;
+ border-radius: 8px;
+ font-size: 15px;
+ cursor: pointer;
+}
